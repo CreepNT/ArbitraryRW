@@ -1,0 +1,14 @@
+ArbitraryRW:
+    attributes: 0
+    version:
+        major: 1
+        minor: 0
+    main:
+        start: module_start
+        stop: module_stop
+    modules:
+        ArbitraryRW:
+            syscall: true
+            functions:
+                - ARBRW_enable_debug_log
+                - ARBRW_memcpy_RXBypass
