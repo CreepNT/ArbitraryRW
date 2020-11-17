@@ -1,7 +1,7 @@
-#ArbitraryRW
+# ArbitraryRW
 Kernel module + library to allow userland modules to write on RX pages.
 
-#Usage
+# Usage
 Include `ArbitraryRW.h` in your project, and link against `libArbitraryRW_stub.a` / `libArbitraryRW_stub_weak.a`.
 (For CMake users : add `ArbitraryRW_stub` or `ArbitraryRW_stub_weak` to the `target_link_libraries`, and add the folder in which the files are to `link_directories`)
 
